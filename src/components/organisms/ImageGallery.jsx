@@ -2,11 +2,34 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import ApperIcon from "@/components/ApperIcon";
 import Button from "@/components/atoms/Button";
-
 const ImageGallery = ({ images, title }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFullscreen, setIsFullscreen] = useState(false);
+  const [imageErrors, setImageErrors] = useState(new Set());
+  const [imageLoading, setImageLoading] = useState(new Set());
 
+  const fallbackImage = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'%3E%3Crect width='800' height='600' fill='%23f3f4f6'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='0.35em' font-family='Arial, sans-serif' font-size='24' fill='%236b7280'%3EImage unavailable%3C/text%3E%3C/svg%3E";
+
+  const handleImageError = (index) => {
+    setImageErrors(prev => new Set([...prev, index]));
+    setImageLoading(prev => {
+      const newSet = new Set([...prev]);
+      newSet.delete(index);
+      return newSet;
+    });
+  };
+
+  const handleImageLoad = (index) => {
+    setImageLoading(prev => {
+      const newSet = new Set([...prev]);
+      newSet.delete(index);
+      return newSet;
+    });
+  };
+
+  const handleImageLoadStart = (index) => {
+    setImageLoading(prev => new Set([...prev, index]));
+  };
   const nextImage = () => {
     setCurrentIndex((prev) => (prev + 1) % images.length);
   };
@@ -25,15 +48,24 @@ const ImageGallery = ({ images, title }) => {
       <div className="relative rounded-xl overflow-hidden shadow-lg">
         {/* Main Image */}
         <div className="relative h-96 bg-gray-200">
+{imageLoading.has(currentIndex) && (
+            <div className="w-full h-full bg-gray-200 animate-pulse flex items-center justify-center">
+              <span className="text-gray-500">Loading...</span>
+            </div>
+          )}
           <motion.img
             key={currentIndex}
-            src={images[currentIndex]}
+            src={imageErrors.has(currentIndex) ? fallbackImage : images[currentIndex]}
             alt={`${title} - Image ${currentIndex + 1}`}
             className="w-full h-full object-cover cursor-pointer"
             onClick={() => setIsFullscreen(true)}
+            onLoadStart={() => handleImageLoadStart(currentIndex)}
+            onLoad={() => handleImageLoad(currentIndex)}
+            onError={() => handleImageError(currentIndex)}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.3 }}
+            style={{ display: imageLoading.has(currentIndex) ? 'none' : 'block' }}
           />
 
           {/* Navigation Arrows */}
@@ -81,10 +113,12 @@ const ImageGallery = ({ images, title }) => {
                     : "border-gray-200 hover:border-gray-300"
                 }`}
               >
-                <img
-                  src={image}
+<img
+                  src={imageErrors.has(index) ? fallbackImage : image}
                   alt={`Thumbnail ${index + 1}`}
                   className="w-full h-full object-cover"
+                  onError={() => handleImageError(index)}
+                  onLoad={() => handleImageLoad(index)}
                 />
               </button>
             ))}
@@ -110,15 +144,17 @@ const ImageGallery = ({ images, title }) => {
             </button>
 
             <div className="relative max-w-7xl max-h-full mx-4">
-              <motion.img
+<motion.img
                 key={`fullscreen-${currentIndex}`}
-                src={images[currentIndex]}
+                src={imageErrors.has(currentIndex) ? fallbackImage : images[currentIndex]}
                 alt={`${title} - Image ${currentIndex + 1}`}
                 className="max-w-full max-h-full object-contain"
                 initial={{ scale: 0.9, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
                 transition={{ duration: 0.3 }}
                 onClick={(e) => e.stopPropagation()}
+                onError={() => handleImageError(currentIndex)}
+                onLoad={() => handleImageLoad(currentIndex)}
               />
 
               {/* Navigation in Fullscreen */}

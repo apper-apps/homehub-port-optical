@@ -64,8 +64,8 @@
     "bathrooms": 3,
     "squareFeet": 2200,
     "propertyType": "condo",
-    "images": [
-      "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=800&q=80",
+"images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80",
       "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
       "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&q=80",
       "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=800&q=80"
@@ -148,9 +148,9 @@
     "bathrooms": 3,
     "squareFeet": 3200,
     "propertyType": "house",
-    "images": [
+"images": [
       "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
-      "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=800&q=80",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80",
       "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&q=80",
       "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=800&q=80"
     ],
@@ -232,8 +232,8 @@
     "bathrooms": 2,
     "squareFeet": 1400,
     "propertyType": "condo",
-    "images": [
-      "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=800&q=80",
+"images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80",
       "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
       "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&q=80",
       "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=800&q=80"
@@ -288,9 +288,9 @@
     "bathrooms": 3,
     "squareFeet": 2600,
     "propertyType": "house",
-    "images": [
+"images": [
       "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
-      "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=800&q=80",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80",
       "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&q=80",
       "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=800&q=80"
     ],
