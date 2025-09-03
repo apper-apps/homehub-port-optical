@@ -1,0 +1,338 @@
+[
+  {
+    "Id": 1,
+    "title": "Modern Downtown Condo with City Views",
+    "price": 850000,
+    "address": "123 Main Street, Seattle, WA 98101",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFeet": 1200,
+    "propertyType": "condo",
+    "images": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80",
+      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=800&q=80",
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80"
+    ],
+    "description": "This stunning modern condo offers breathtaking city views from every room. Located in the heart of downtown Seattle, you'll be within walking distance of the best restaurants, shopping, and entertainment the city has to offer. The open-concept design features floor-to-ceiling windows, hardwood floors, and a gourmet kitchen with stainless steel appliances.",
+    "features": [
+      "Floor-to-ceiling windows",
+      "Hardwood floors",
+      "Stainless steel appliances",
+      "In-unit washer/dryer",
+      "Building gym",
+      "Rooftop terrace",
+      "24/7 concierge",
+      "Underground parking"
+    ],
+    "yearBuilt": 2020
+  },
+  {
+    "Id": 2,
+    "title": "Charming Victorian Home with Garden",
+    "price": 1200000,
+    "address": "456 Oak Avenue, Portland, OR 97205",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFeet": 2800,
+    "propertyType": "house",
+    "images": [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80"
+    ],
+    "description": "This beautifully restored Victorian home combines historic charm with modern amenities. Set on a large lot with mature landscaping, this property features original hardwood floors, decorative moldings, and a wraparound porch perfect for entertaining.",
+    "features": [
+      "Original hardwood floors",
+      "Wraparound porch",
+      "Updated kitchen",
+      "Master suite with walk-in closet",
+      "Large backyard",
+      "Mature landscaping",
+      "Two-car garage",
+      "Wine cellar"
+    ],
+    "yearBuilt": 1895
+  },
+  {
+    "Id": 3,
+    "title": "Luxury Penthouse with Ocean Views",
+    "price": 2500000,
+    "address": "789 Beach Boulevard, San Diego, CA 92109",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFeet": 2200,
+    "propertyType": "condo",
+    "images": [
+      "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&q=80",
+      "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=800&q=80"
+    ],
+    "description": "Experience luxury living at its finest in this spectacular penthouse overlooking the Pacific Ocean. This corner unit features panoramic views, a private elevator, and a large terrace perfect for watching sunsets over the water.",
+    "features": [
+      "Private elevator",
+      "Panoramic ocean views",
+      "Large private terrace",
+      "Gourmet kitchen",
+      "Master suite with ocean views",
+      "Building spa",
+      "Concierge service",
+      "Valet parking"
+    ],
+    "yearBuilt": 2018
+  },
+  {
+    "Id": 4,
+    "title": "Cozy Cottage in Historic District",
+    "price": 650000,
+    "address": "321 Elm Street, Savannah, GA 31401",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFeet": 950,
+    "propertyType": "house",
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80",
+      "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=800&q=80"
+    ],
+    "description": "This charming cottage in Savannah's historic district offers Southern charm and modern convenience. With original architectural details and a private garden, it's the perfect retreat in one of America's most beautiful cities.",
+    "features": [
+      "Original architectural details",
+      "Private garden",
+      "Updated kitchen",
+      "Hardwood floors",
+      "Historic district location",
+      "Walking distance to downtown",
+      "Off-street parking",
+      "Central air conditioning"
+    ],
+    "yearBuilt": 1925
+  },
+  {
+    "Id": 5,
+    "title": "Contemporary Townhome with Rooftop Deck",
+    "price": 750000,
+    "address": "555 Pine Street, Denver, CO 80202",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFeet": 1800,
+    "propertyType": "townhome",
+    "images": [
+      "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80"
+    ],
+    "description": "This sleek contemporary townhome features an open floor plan, high ceilings, and a stunning rooftop deck with mountain views. Located in Denver's vibrant downtown area, you'll have easy access to restaurants, breweries, and outdoor recreation.",
+    "features": [
+      "Rooftop deck with mountain views",
+      "Open floor plan",
+      "High ceilings",
+      "Modern kitchen with island",
+      "Master suite with walk-in closet",
+      "Two-car garage",
+      "Energy efficient",
+      "Smart home features"
+    ],
+    "yearBuilt": 2019
+  },
+  {
+    "Id": 6,
+    "title": "Spacious Family Home with Pool",
+    "price": 950000,
+    "address": "777 Sunset Drive, Austin, TX 78704",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFeet": 3200,
+    "propertyType": "house",
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&q=80",
+      "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=800&q=80"
+    ],
+    "description": "Perfect for families, this spacious home features four bedrooms, an open kitchen and living area, and a beautiful backyard with swimming pool. Located in South Austin with easy access to downtown and great schools.",
+    "features": [
+      "Swimming pool",
+      "Large backyard",
+      "Open kitchen and living area",
+      "Master suite with sitting area",
+      "Three-car garage",
+      "Great school district",
+      "Updated bathrooms",
+      "Covered patio"
+    ],
+    "yearBuilt": 2005
+  },
+  {
+    "Id": 7,
+    "title": "Artist Loft in Creative District",
+    "price": 450000,
+    "address": "888 Industrial Way, Phoenix, AZ 85004",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFeet": 1100,
+    "propertyType": "apartment",
+    "images": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80",
+      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=800&q=80",
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80"
+    ],
+    "description": "This unique artist loft features soaring ceilings, exposed brick walls, and large windows that flood the space with natural light. Located in Phoenix's creative district, surrounded by galleries, studios, and trendy restaurants.",
+    "features": [
+      "Exposed brick walls",
+      "Soaring ceilings",
+      "Large windows",
+      "Polished concrete floors",
+      "Open floor plan",
+      "Creative district location",
+      "Artist community",
+      "Secure building"
+    ],
+    "yearBuilt": 1975
+  },
+  {
+    "Id": 8,
+    "title": "Mountain View Ranch Home",
+    "price": 1100000,
+    "address": "999 Ridge Road, Salt Lake City, UT 84102",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFeet": 2000,
+    "propertyType": "house",
+    "images": [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80"
+    ],
+    "description": "This stunning ranch home offers breathtaking mountain views and outdoor living at its best. With vaulted ceilings, a stone fireplace, and a large deck, it's perfect for those who love nature and entertaining.",
+    "features": [
+      "Mountain views",
+      "Vaulted ceilings",
+      "Stone fireplace",
+      "Large deck",
+      "Updated kitchen",
+      "Master suite with mountain views",
+      "Two-car garage",
+      "Mature trees"
+    ],
+    "yearBuilt": 1988
+  },
+  {
+    "Id": 9,
+    "title": "Waterfront Condo with Marina Access",
+    "price": 1350000,
+    "address": "111 Harbor View, Miami, FL 33139",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFeet": 1400,
+    "propertyType": "condo",
+    "images": [
+      "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&q=80",
+      "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=800&q=80"
+    ],
+    "description": "This waterfront condo offers stunning bay views and marina access. Perfect for boating enthusiasts, with a private balcony overlooking the water and luxury amenities throughout the building.",
+    "features": [
+      "Marina access",
+      "Bay views",
+      "Private balcony",
+      "Boat slip included",
+      "Building pool",
+      "Fitness center",
+      "24/7 security",
+      "Valet parking"
+    ],
+    "yearBuilt": 2015
+  },
+  {
+    "Id": 10,
+    "title": "Restored Brownstone in Historic Neighborhood",
+    "price": 1850000,
+    "address": "222 Brownstone Lane, Boston, MA 02116",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFeet": 3000,
+    "propertyType": "townhome",
+    "images": [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80"
+    ],
+    "description": "This beautifully restored brownstone maintains its historic character while offering modern conveniences. Located in one of Boston's most prestigious neighborhoods, it features original architectural details and a private garden.",
+    "features": [
+      "Original architectural details",
+      "Private garden",
+      "Historic neighborhood",
+      "Updated kitchen",
+      "Original hardwood floors",
+      "Decorative fireplaces",
+      "High ceilings",
+      "Off-street parking"
+    ],
+    "yearBuilt": 1890
+  },
+  {
+    "Id": 11,
+    "title": "Modern Farmhouse with Acreage",
+    "price": 875000,
+    "address": "333 Country Road, Nashville, TN 37205",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFeet": 2600,
+    "propertyType": "house",
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&q=80",
+      "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=800&q=80"
+    ],
+    "description": "This modern farmhouse sits on 5 acres and combines rustic charm with contemporary design. Features include a wrap-around porch, barn-style doors, and a gourmet kitchen perfect for entertaining.",
+    "features": [
+      "5 acres",
+      "Wrap-around porch",
+      "Barn-style doors",
+      "Gourmet kitchen",
+      "Master suite with sitting area",
+      "Large barn",
+      "Fenced pasture",
+      "Country setting"
+    ],
+    "yearBuilt": 2021
+  },
+  {
+    "Id": 12,
+    "title": "Luxury High-Rise with City Amenities",
+    "price": 1600000,
+    "address": "444 Skyline Drive, Chicago, IL 60611",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFeet": 1900,
+    "propertyType": "condo",
+    "images": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80",
+      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=800&q=80",
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80"
+    ],
+    "description": "This luxury high-rise condo offers stunning city and lake views from the 35th floor. Premium building amenities include a rooftop pool, fitness center, and 24/7 concierge service.",
+    "features": [
+      "35th floor",
+      "City and lake views",
+      "Rooftop pool",
+      "Fitness center",
+      "24/7 concierge",
+      "Valet parking",
+      "Wine storage",
+      "Business center"
+    ],
+    "yearBuilt": 2017
+  }
+]
