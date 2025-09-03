@@ -106,7 +106,7 @@ const FilterSidebar = ({
           <div className="space-y-3">
             <h4 className="font-medium text-primary">Property Type</h4>
             <Select
-              value={filters.propertyType || ""}
+value={filters.property_type_c || ""}
               onChange={(e) => updateFilter("propertyType", e.target.value)}
             >
               {propertyTypes.map((type) => (

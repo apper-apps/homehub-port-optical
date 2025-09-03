@@ -206,33 +206,33 @@ const PropertyDetailPage = () => {
                 <div className="flex justify-between py-2 border-b border-gray-100">
                   <span className="text-gray-600">Price</span>
                   <span className="font-semibold text-primary">
-                    {formatPrice(property.price)}
+{formatPrice(property.price_c)}
                   </span>
                 </div>
                 <div className="flex justify-between py-2 border-b border-gray-100">
                   <span className="text-gray-600">Property Type</span>
                   <span className="font-semibold text-primary capitalize">
-                    {property.propertyType}
+                    {property.property_type_c}
                   </span>
                 </div>
                 <div className="flex justify-between py-2 border-b border-gray-100">
                   <span className="text-gray-600">Bedrooms</span>
-                  <span className="font-semibold text-primary">{property.bedrooms}</span>
+                  <span className="font-semibold text-primary">{property.bedrooms_c}</span>
                 </div>
                 <div className="flex justify-between py-2 border-b border-gray-100">
                   <span className="text-gray-600">Bathrooms</span>
-                  <span className="font-semibold text-primary">{property.bathrooms}</span>
+                  <span className="font-semibold text-primary">{property.bathrooms_c}</span>
                 </div>
                 <div className="flex justify-between py-2 border-b border-gray-100">
                   <span className="text-gray-600">Square Feet</span>
                   <span className="font-semibold text-primary">
-                    {property.squareFeet.toLocaleString()}
+                    {property.square_feet_c?.toLocaleString()}
                   </span>
                 </div>
-                {property.yearBuilt && (
+                {property.year_built_c && (
                   <div className="flex justify-between py-2 border-b border-gray-100">
                     <span className="text-gray-600">Year Built</span>
-                    <span className="font-semibold text-primary">{property.yearBuilt}</span>
+                    <span className="font-semibold text-primary">{property.year_built_c}</span>
                   </div>
                 )}
               </div>

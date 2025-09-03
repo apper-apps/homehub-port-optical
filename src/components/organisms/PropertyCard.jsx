@@ -86,9 +86,9 @@ const PropertyCard = ({ property, className = "" }) => {
                     {feature}
                   </Badge>
                 ))}
-                {property.features.length > 2 && (
+{(Array.isArray(property.features_c) ? property.features_c.length : property.features_c.split('\n').length) > 2 && (
                   <Badge variant="secondary" size="small">
-                    +{property.features.length - 2} more
+                    +{(Array.isArray(property.features_c) ? property.features_c.length : property.features_c.split('\n').length) - 2} more
                   </Badge>
                 )}
               </div>

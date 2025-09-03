@@ -15,7 +15,7 @@ const PropertyStats = ({ bedrooms, bathrooms, squareFeet, className = "" }) => {
       </div>
       <div className="flex items-center gap-1">
         <ApperIcon name="Square" size={16} className="text-secondary" />
-        <span>{formatSquareFeet(squareFeet)}</span>
+<span>{formatSquareFeet(squareFeet)}</span>
       </div>
     </div>
   );
